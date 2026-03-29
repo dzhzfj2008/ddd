@@ -399,7 +399,6 @@ rules:
   - DOMAIN,board.zash.run.place,DIRECT
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Apple
   - DOMAIN-KEYWORD,dtcpay,DIRECT
-  - DOMAIN-KEYWORD,wise,DIRECT
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
   
   - RULE-SET,ads-domain,REJECT
