@@ -130,7 +130,7 @@ proxies: null
 proxy-providers: 
   Subscribe1: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
   
-  Subscribe2: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: ""}
+  Subscribe2: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: "https://rssstarlink.ei38d3if3.xyz/s/b15bc44e89b2c23b70490fbf7ece2a4d"}
 # 1. 请把订阅链接填入引号""内使用,
 # 2. 或可通过Sub-Store进行订阅转换(或需自建Sub-Store服务)。
 
