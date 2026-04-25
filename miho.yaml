@@ -128,7 +128,7 @@ proxies: null
 
 # 远程订阅
 proxy-providers: 
-  Subscribe1: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: ""}
+  Subscribe1: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
   
   Subscribe2: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: ""}
 # 1. 请把订阅链接填入引号""内使用,
@@ -400,7 +400,7 @@ rules:
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Apple
   - DOMAIN-KEYWORD,dtcpay,DIRECT
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
-  
+  - DOMAIN-KEYWORD,wise,DIRECT
   - RULE-SET,ads-domain,REJECT
   - RULE-SET,category-ads-all_domain,REJECT
   - RULE-SET,private-domain,DIRECT
