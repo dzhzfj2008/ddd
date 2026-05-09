@@ -401,7 +401,8 @@ rules:
   - DOMAIN-KEYWORD,dtcpay,DIRECT
   - DOMAIN-KEYWORD,wise,DIRECT
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
-  
+  - DOMAIN-KEYWORD,mondea,Proxy
+  - DOMAIN-KEYWORD,1688,DIRECT
   - RULE-SET,ads-domain,REJECT
   - RULE-SET,category-ads-all_domain,REJECT
   - RULE-SET,private-domain,DIRECT
