@@ -403,7 +403,6 @@ rules:
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
   - DOMAIN-KEYWORD,mondea,Proxy
   - DOMAIN-KEYWORD,1688,DIRECT
-  - DOMAIN-KEYWORD,rootdata,Proxy
   - RULE-SET,ads-domain,REJECT
   - RULE-SET,category-ads-all_domain,REJECT
   - RULE-SET,private-domain,DIRECT
