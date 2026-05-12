@@ -128,13 +128,12 @@ proxies: null
 
 # 远程订阅
 proxy-providers: 
-  Subscribe1: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
-  
-  Subscribe2: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: "https://s1.trojanflare.one/clashx/b4d445da-3175-4ec7-a469-72af6782f35b"}
-  Subscribe3: {<<: *p, path: ./proxy_providers/subscribe3.yaml, url: "https://starlink.publicrss.ggff.net/s/6c77e6cbcf238e4f81c5372f60a61d6f"}
-  Subscribe4: {<<: *p, path: ./proxy_providers/subscribe4.yaml, url: "https://checkhere.top/link/HBbmd3yNFkwVeVWu?clash=1#69yun69.com"}
-  Subscribe5: {<<: *p, path: ./proxy_providers/subscribe5.yaml, url: "https://skylumo.com/api/v1/client/subscribe?token=4f35387b4fc11f3d24be1f34711d80b9"}
-  Subscribe6: {<<: *p, path: ./proxy_providers/subscribe6.yaml, url: ""}
+  mitce: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
+  shadowsocks: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: "https://s1.trojanflare.one/clashx/b4d445da-3175-4ec7-a469-72af6782f35b"}
+  xinglian: {<<: *p, path: ./proxy_providers/subscribe3.yaml, url: "https://starlink.publicrss.ggff.net/s/6c77e6cbcf238e4f81c5372f60a61d6f"}
+  69yun: {<<: *p, path: ./proxy_providers/subscribe4.yaml, url: "https://checkhere.top/link/HBbmd3yNFkwVeVWu?clash=1#69yun69.com"}
+  skylumo: {<<: *p, path: ./proxy_providers/subscribe5.yaml, url: "https://skylumo.com/api/v1/client/subscribe?token=4f35387b4fc11f3d24be1f34711d80b9"}
+  zijian: {<<: *p, path: ./proxy_providers/subscribe6.yaml, url: ""}
 
 # 1. 请把订阅链接填入引号""内使用,
 # 2. 或可通过Sub-Store进行订阅转换(或需自建Sub-Store服务)。
@@ -145,17 +144,17 @@ proxy-groups:
 # 节点切换
  - {name: Proxy, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *Select, proxies: [mitce,shadowsocks,xinglian,69yun,skylumo,zijian,HongKong,TaiWan,Japan,Singapore,India,UnitedKingdom,America,OtherServer,AllServer,DIRECT]}
  
- - {name: mitce, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe1]}
+ - {name: mitce, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [mitce]}
  
- - {name: shadowsocks, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe2]}
+ - {name: shadowsocks, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [shadowsocks]}
 
- - {name: xinglian, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe3]}
+ - {name: xinglian, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [xinglian]}
 
- - {name: 69yun, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe4]}
+ - {name: 69yun, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [69yun]}
 
- - {name: skylumo, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe5]}
+ - {name: skylumo, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [skylumo]}
 
- - {name: zijian, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [Subscribe6]}
+ - {name: zijian, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, use: [zijian]}
 
 # AI平台
  - {name: AI, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, <<: *Select}
