@@ -128,11 +128,11 @@ proxies: null
 
 # 远程订阅
 proxy-providers: 
-  mitce: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
-  shadowsocks: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: "https://s1.trojanflare.one/clashx/b4d445da-3175-4ec7-a469-72af6782f35b"}
-  xinglian: {<<: *p, path: ./proxy_providers/subscribe3.yaml, url: "https://starlink.publicrss.ggff.net/s/6c77e6cbcf238e4f81c5372f60a61d6f"}
-  69yun: {<<: *p, path: ./proxy_providers/subscribe4.yaml, url: "https://checkhere.top/link/HBbmd3yNFkwVeVWu?clash=1#69yun69.com"}
-  skylumo: {<<: *p, path: ./proxy_providers/subscribe5.yaml, url: "https://skylumo.com/api/v1/client/subscribe?token=4f35387b4fc11f3d24be1f34711d80b9"}
+  mitce: {<<: *p, path: ./proxy_providers/mitce.yaml, url: "https://app.mitce.net/?sid=237260&token=2c9a747085bfab325b1d"}
+  shadowsocks: {<<: *p, path: ./proxy_providers/shadowsocks.yaml, url: "https://s1.trojanflare.one/clashx/b4d445da-3175-4ec7-a469-72af6782f35b"}
+  xinglian: {<<: *p, path: ./proxy_providers/xinglian.yaml, url: "https://starlink.publicrss.ggff.net/s/6c77e6cbcf238e4f81c5372f60a61d6f"}
+  69yun: {<<: *p, path: ./proxy_providers/69yun, url: "https://checkhere.top/link/HBbmd3yNFkwVeVWu?clash=1#69yun69.com"}
+  skylumo: {<<: *p, path: ./proxy_providers/skylumo.yaml, url: "https://skylumo.com/api/v1/client/subscribe?token=4f35387b4fc11f3d24be1f34711d80b9"}
   zijian: {<<: *p, path: ./proxy_providers/subscribe6.yaml, url: ""}
 
 # 1. 请把订阅链接填入引号""内使用,
