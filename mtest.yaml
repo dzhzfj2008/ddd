@@ -431,6 +431,7 @@ rules:
   - DOMAIN-KEYWORD,1688,DIRECT
   - DOMAIN-KEYWORD,juejin,DIRECT
   - DOMAIN-KEYWORD,banknav,Proxy
+  - DOMAIN-KEYWORD,icmarkets,Proxy
   - DOMAIN-KEYWORD,mitce,Proxy
   - DOMAIN-KEYWORD,speedtest,Proxy
   - DOMAIN-KEYWORD,mondea,Proxy
