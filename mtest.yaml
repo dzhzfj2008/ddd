@@ -437,6 +437,7 @@ rules:
   - DOMAIN-KEYWORD,speedtest,Proxy
   - DOMAIN-KEYWORD,mondea,Proxy
   - DOMAIN-KEYWORD,bridge,Proxy
+  - DOMAIN-KEYWORD,taptapsend,Proxy
   - RULE-SET,ads-domain,REJECT
   - RULE-SET,category-ads-all_domain,REJECT
   - RULE-SET,private-domain,DIRECT
