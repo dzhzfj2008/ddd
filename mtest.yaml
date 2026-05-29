@@ -429,6 +429,7 @@ rules:
   - DOMAIN-KEYWORD,wise,DIRECT
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
   - DOMAIN-KEYWORD,1688,DIRECT
+  - DOMAIN-KEYWORD,deepseek,DIRECT
   - DOMAIN-KEYWORD,juejin,DIRECT
   - DOMAIN-KEYWORD,banknav,Proxy
   - DOMAIN-KEYWORD,icmarkets,Proxy
