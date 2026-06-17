@@ -440,6 +440,7 @@ rules:
   - DOMAIN-KEYWORD,taptapsend,Proxy
   - DOMAIN-KEYWORD,moto,Proxy
   - DOMAIN-KEYWORD,futureselite,Proxy
+  - DOMAIN-KEYWORD,npmjs,Proxy
   - DOMAIN-KEYWORD,lzwuxian,Proxy
   - DOMAIN-KEYWORD,deepseek,Proxy
   - RULE-SET,ads-domain,REJECT
