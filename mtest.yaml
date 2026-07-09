@@ -430,7 +430,7 @@ rules:
   - DOMAIN-KEYWORD,digitalcardservice,DIRECT
   - DOMAIN-KEYWORD,1688,DIRECT
   - DOMAIN-KEYWORD,juejin,DIRECT
-  - DOMAIN-KEYWORD,thebanks,DIRECT
+  - DOMAIN-KEYWORD,thebanks,Proxy
   - DOMAIN-KEYWORD,banknav,Proxy
   - DOMAIN-KEYWORD,icmarkets,Proxy
   - DOMAIN-KEYWORD,ic,Proxy
