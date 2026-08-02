@@ -1,16 +1,6 @@
-DOMAIN-KEYWORD,jigsawtrading
-DOMAIN-KEYWORD,tradingview
-PROCESS-NAME,daytradr64.exe
-PROCESS-NAME,TradingView.exe
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,jigsawtrading.com
-DOMAIN-SUFFIX,twelvedata.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,ctrader.com
 
-PROCESS-NAME,daytradr64.exe
-PROCESS-NAME,TradingView.exe
-PROCESS-NAME,terminal64.exe
-PROCESS-NAME,metatrader64.exe
-PROCESS-NAME,cTrader.exe
+
+
+
